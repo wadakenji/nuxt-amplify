@@ -1,0 +1,13 @@
+{
+  viewer {
+    login
+    repositories(first: 5) {
+      edges {
+        node {
+          name
+          id
+        }
+      }
+    }
+  }
+}
