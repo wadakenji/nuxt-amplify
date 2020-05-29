@@ -1,22 +1,4 @@
-# nuxt-graphql-test
+`yarn dev`でファイルを実行
 
-> My mathematical Nuxt.js project
-
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+フォームに文字を入力しpostを押下でデータを追加
+deleteを押下でデータの削除
