@@ -40,6 +40,9 @@ export default {
     "@nuxtjs/apollo",
     "@nuxtjs/dotenv",
   ],
+  env: {
+    GITHUB_ACCESS_TOKEN: process.env.GITHUB_ACCESS_TOKEN
+  },
   apollo: {
     clientConfigs: {
       default: "~/plugins/apollo-auth.js"
